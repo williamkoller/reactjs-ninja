@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Word</h1>
+    <div id="app"></div>
+    <div id="app1"></div>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+<script type="text/babel">
+    // let h1 = React.createElement('h1', null, [
+    //     React.createElement('span', null, 'Texto do span 1'),
+    //     React.createElement('span', null, 'Texto do span 2'),
+    //     React.createElement('span', null, 'Texto do span 2')
+    // ])
+    // let h2 = React.DOM.h1(null, [
+    //     React.DOM.span(null, React.DOM.i(null, 'Itálico')),
+    //     React.DOM.span(null, 'Texto do span 2')
+    // ])
+    ReactDOM.render(<h1>Hello JS</h1>, document.getElementById('app'))
+    // ReactDOM.render(h1, document.getElementById('app'))
+    // ReactDOM.render(h2, document.getElementById('app1'))
+    // console.log(h1, h2)
+</script>
+</html>
